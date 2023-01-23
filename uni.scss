@@ -1,0 +1,33 @@
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+@import 'uview-ui/theme.scss';
+
+$border-radius-base: 10rpx;
+$bg-base: #f7f7f8;
+$color-base: #333;
+$color-lighter: #ddd;
+$color-light: rgba(0, 0, 0, 0.7);
+$color-dark: #020702;
+$color-yellow: #f5f0e3;
+$color-yellow-darken: darken(#f5f0e3, 1);
+$color-primary: #fe7634;
+$u-type-primary: rgba(#fe7634, 0.8);
+$u-type-primary-light: rgba(#fe7634, 0.6);
+$u-type-primary-dark: rgba(#fe7634, 1);
+
+$color-link: #2979ff;
+
+$share-height: 78rpx;
+
+$bg-dark: #020202;
+
+// $color:#b4b2b0;
+// $color:#b4b52b;
+// $color:#368a1c;
+// $color:#2c97e4;
+// $color:#5362ed;
+// $color:#d1496a;
+// $color:#f00;
