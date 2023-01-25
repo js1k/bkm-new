@@ -1,5 +1,5 @@
 {
-    "name" : "怪猎崛起",
+    "name" : "宝可梦",
     "appid" : "__UNI__56D8D0B",
     "description" : "多平台快速开发的UI框架",
     "versionName" : "1.8.3",
@@ -93,10 +93,10 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx765d7933a9fe6ad6",
         "cloudfunctionRoot" : "static/cloudfunctions/",
         "setting" : {
-            "urlCheck" : true,
+            "urlCheck" : false,
             "es6" : false,
             "minified" : true,
             "postcss" : true

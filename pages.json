@@ -1,165 +1,37 @@
 {
-  "easycom": {
-    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
-  },
-  "pages": [
-    {
-      "path": "pages/index/index",
-      "style": {
-        "navigationBarTitleText": "怪猎崛起",
-        "enablePullDownRefresh": false,
-        "disableScroll": true
-      }
-    },
-    {
-      "path": "pages/monster-list/monster-list",
-      "style": {
-        "navigationBarTitleText": "怪物图鉴",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/monster-detail/monster-detail",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false,
-        "disableScroll": true
-      }
-    },
-    {
-      "path": "pages/task-list/task-list",
-      "style": {
-        "navigationBarTitleText": "关键任务",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/skill-list/skill-list",
-      "style": {
-        "navigationBarTitleText": "技能",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/daoju-list/daoju-list",
-      "style": {
-        "navigationBarTitleText": "道具",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/daoju-detail/daoju-detail",
-      "style": {
-        "navigationBarTitleText": "道具详情",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/armor-list/armor-list",
-      "style": {
-        "navigationBarTitleText": "防具",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/decoration-list/decoration-list",
-      "style": {
-        "navigationBarTitleText": "装饰品",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/armor-detail/armor-detail",
-      "style": {
-        "navigationBarTitleText": "防具详情",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/weapon-list/weapon-list",
-      "style": {
-        "navigationBarTitleText": "武器图鉴",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/weapon-detail/weapon-detail",
-      "style": {
-        "navigationBarTitleText": "武器详情",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/peizhuangqi/peizhuangqi",
-      "style": {
-        "navigationBarTitleText": "自定义配装器 Beta",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/fitting-list/fitting-list",
-      "style": {
-        "navigationBarTitleText": "配装",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/skill-detail/skill-detail",
-      "style": {
-        "navigationBarTitleText": "技能详情",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/about/about",
-      "style": {
-        "navigationBarTitleText": "我的",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/my-stone-list/my-stone-list",
-      "style": {
-        "navigationBarTitleText": "我的护石",
-        "enablePullDownRefresh": false
-      }
-    },
-    {
-      "path": "pages/tuanzi-skill-list/tuanzi-skill-list",
-      "style": {
-        "navigationBarTitleText": "团子技能",
-        "enablePullDownRefresh": false
-      }
-    }
-  ],
-  "globalStyle": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "怪猎崛起",
-    "navigationBarBackgroundColor": "#FFFFFF",
-    "backgroundColor": "#FFFFFF"
-  },
-  "condition": {
-    "current": 0,
-    "list": []
-  },
-  "tabBar": {
-    // "color": "#7A7E83",
-    "selectedColor": "#fe7634",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/tabbar/icon_home.png",
-        "selectedIconPath": "static/tabbar/icon_home_actived.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/about/about",
-        "iconPath": "static/tabbar/icon_mine.png",
-        "selectedIconPath": "static/tabbar/icon_mine_actived.png",
-        "text": "我的"
-      }
-    ]
-  }
+	"lazyCodeLoading":"requiredComponents",
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "宝可梦",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "宝可梦",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"condition": {
+		"current": 0,
+		"list": []
+	}
 }
