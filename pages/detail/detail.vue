@@ -14,8 +14,13 @@
 						<view class="c-name">
 							属	性：
 						</view>
-						<view class="c-value">
-							{{item['属性']}}
+						<view class="c-value prop-bx" >
+							  <view class="prop" 
+								    v-for="(p, x) in getProp(item['属性'])" 
+									:key="x" 
+									:style="{'background-color': p.color}">
+							  	{{p.name}}
+							  </view>
 						</view>
 					</view>
 					<view class="clm">
@@ -123,7 +128,6 @@
 
 <script>
 export default{
-
 data(){
 	return {
 		item: {},
@@ -218,12 +222,93 @@ data(){
 				position: '0 -340px',
 				name: '妖精'
 			}
+		],
+		propt: [
+			{
+				name: '草',
+				color: '#3fa129'
+			},
+			{
+				name: '恶',
+				color: '#50413f'
+			},
+			{
+				name: '火',
+				color: '#e62829'
+			},
+			{
+				name: '幽灵',
+				color: '#704170'
+			},
+			{
+				name: '水',
+				color: '#2980ef'
+			},
+			{
+				name: '格斗',
+				color: '#ff8000'
+			},
+			{
+				name: '一般',
+				color: '#9fa19f'
+			},
+			{
+				name: '虫',
+				color: '#91a119'
+			},
+			{
+				name: '飞行',
+				color: '#81b9ef'
+			},
+			{
+				name: '钢',
+				color: '#60a1b8'
+			},
+			{
+				name: '妖精',
+				color: '#ef70ef'
+			},
+			{
+				name: '毒',
+				color: '#9141cb'
+			},
+			{
+				name: '地面',
+				color: '#915121'
+			},
+			{
+				name: '岩石',
+				color: '#afa981'
+			},
+			{
+				name: '超能力',
+				color: '#ef4179'
+			},
+			{
+				name: '电',
+				color: '#fac000'
+			},
+			{
+				name: '冰',
+				color: '#3fd8ff'
+			}
 		]
 	}
 },
 created(){
 	this.item = uni.getStorageSync('item')
 	console.log('this.item', this.item)
+},
+methods: {
+	getProp(val){
+		let tmp = []
+		for(let i =0; i< this.propt.length; i++){
+			if(val.includes(this.propt[i].name)){
+				tmp.push(this.propt[i])
+			}
+		}
+		return tmp
+	},
 }
 
 }
@@ -252,11 +337,22 @@ created(){
 		}
 	}
 }
+.prop-bx{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.prop{
+	padding: 3rpx 10rpx;
+	color: #fff;
+	margin-right: 5rpx;
+	font-size: 24rpx;
+}
 .itm-logo{
 	width: 64px;
 	height: 64px;
 	margin-right: 10px;
-	background-image: url(//636c-cloud1-8gxep97n51873d9b-1316607286.tcb.qcloud.la/bkm/icon-1999.png?sign=ea09b806c61b2dbc77c19ff6f73d81d5&t=1674622470);
+	background-image: url(//636c-cloud1-8gxep97n51873d9b-1316607286.tcb.qcloud.la/bkm/msp-sv.webp?sign=c3a02a602dbdb9307ea8b50c73971bb7&t=1674728284);
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	background-size: 1600px 1600px;
