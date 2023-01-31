@@ -7,7 +7,7 @@ export default {
 	onLaunch() {
 		// #ifndef H5
 		wx.cloud.init({
-			env: 'cloud1-8gxep97n51873d9b'
+			env: 'cloud1-8gxep97n51873-4bo66862e73'
 		});
 		// #endif
 	},

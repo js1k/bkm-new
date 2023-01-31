@@ -1,5 +1,5 @@
 {
-    "name" : "宝可梦",
+    "name" : "宝可梦.朱紫",
     "appid" : "__UNI__56D8D0B",
     "description" : "多平台快速开发的UI框架",
     "versionName" : "1.8.3",
@@ -93,7 +93,7 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wx765d7933a9fe6ad6",
+        "appid" : "wx8b5f2f74cf59a87d",
         "cloudfunctionRoot" : "static/cloudfunctions/",
         "setting" : {
             "urlCheck" : false,

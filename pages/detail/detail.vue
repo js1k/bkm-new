@@ -352,7 +352,7 @@ methods: {
 	width: 64px;
 	height: 64px;
 	margin-right: 10px;
-	background-image: url(//636c-cloud1-8gxep97n51873d9b-1316607286.tcb.qcloud.la/bkm/msp-sv.webp?sign=c3a02a602dbdb9307ea8b50c73971bb7&t=1674728284);
+	background-image: url(//636c-cloud1-8gxep97n51873-4bo66862e73-1316653034.tcb.qcloud.la/bkm/msp-sv.webp?sign=e0229137f2890fa57d0ca50a0f1a45f6&t=1674967884);
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	background-size: 1600px 1600px;

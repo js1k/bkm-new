@@ -4,7 +4,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "宝可梦",
+				"navigationBarTitleText": "宝可梦.朱紫",
 				"enablePullDownRefresh": false,
 				"disableScroll": true
 			}
@@ -26,7 +26,7 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "宝可梦",
+		"navigationBarTitleText": "宝可梦.朱紫",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF"
 	},
